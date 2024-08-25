@@ -22,6 +22,10 @@
             <id>placeholderapi</id>
             <url>https://repo.extendedclip.com/content/repositories/placeholderapi/</url>
         </repository>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -68,9 +72,9 @@
         </dependency>
 
         <dependency>
-            <groupId>me.leoo.utils</groupId>
+            <groupId>com.github.leo18bernese.Utils</groupId>
             <artifactId>bukkit</artifactId>
-            <version>1.10.0</version>
+            <version>1.12.3</version>
         </dependency>
     </dependencies>
 
